@@ -18,7 +18,7 @@
 Utilize os espaços entre os comentários abaixo para executar os códigos dos exercícios. Inclusive este.
 */
 
-
+//console.log("Grandes poderes trazem grandes responsabilidades.");
 
 /*
 04 - Comente o console.log acima, e:
@@ -29,9 +29,11 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Declare uma constante "myFavoriteTom" que recebe nome, espaço, e sobrenome do Tom que você mais gosta;
 - Exiba a "myFavoriteTom" no console do browser.
 */
-
-
-
+const tom = "Tom";
+const firstTom = "Hanks";
+const secondTom = "Cruise";
+const myFavoriteTom = tom + " " + secondTom;
+//console.log(myFavoriteTom);
 /*
 05 - Comente o console.log acima, e:
 
@@ -40,9 +42,9 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - As letras não devem ser digitadas manualmente;
 - Exiba a "js" no console do browser;
 */
-
-
-
+const programmingLanguage = "JavaScript";
+const js = programmingLanguage[0] + programmingLanguage[4];
+//console.log(js);
 /*
 06 - Comente o console.log acima, e,
 
@@ -51,15 +53,18 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Exiba a "mdn" no console do browser;
 */
 
-const mozilla = 'Mozilla Developer Network'
+const mozilla = "Mozilla Developer Network";
+const mdn =
+  mozilla[0].toLowerCase() +
+  mozilla[8].toLowerCase() +
+  mozilla[18].toLowerCase();
 
+console.log(mdn);
 /*
 07 - Comente o console.log acima, e,
 
 - Exiba no console do browser a quantidade de caracteres que a constante "programmingLanguage" possui;
 */
-
-
 
 /*
 08 - Comente o console.log acima, e,
@@ -69,7 +74,7 @@ const mozilla = 'Mozilla Developer Network'
 - Dica: utilize a propriedade ".length".
 */
 
-let randomWord = 'Araponga'
+let randomWord = "Araponga";
 
 /*
 09 - Comente o console.log acima, e,
@@ -79,7 +84,7 @@ let randomWord = 'Araponga'
 - Não digite a nova string manualmente.
 */
 
-const summerMessage = 'O VERÃO CHEGA NESTE FIM DE SEMANA'
+const summerMessage = "O VERÃO CHEGA NESTE FIM DE SEMANA";
 
 /*
 10 - Comente o console.log acima, e,
@@ -89,7 +94,7 @@ const summerMessage = 'O VERÃO CHEGA NESTE FIM DE SEMANA'
 - Não digite a nova string manualmente.
 */
 
-const winterMessage = 'o inverno está chegando'
+const winterMessage = "o inverno está chegando";
 
 /*
 11 - Comente o console.log acima, e,
@@ -97,15 +102,11 @@ const winterMessage = 'o inverno está chegando'
 - Exiba, no console, o index do caractere "v" da "winterMessage";
 */
 
-
-
 /*
 12 - Comente o console.log acima, e,
 
 - Exiba, no console, o index da última ocorrência do caractere "n" da "winterMessage".
 */
-
-
 
 /*
 13 - Comente o console.log acima, e,
@@ -114,7 +115,7 @@ const winterMessage = 'o inverno está chegando'
 - Não digite a string "J.K." manualmente;
 */
 
-const harryPotterAuthor = 'J.K. Rowling'
+const harryPotterAuthor = "J.K. Rowling";
 
 /*
 14 - Comente o console.log acima, e,
@@ -124,7 +125,7 @@ const harryPotterAuthor = 'J.K. Rowling'
 - Exiba a "realBestMovie" no console.
 */
 
-const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!'
+const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!';
 
 /*
 15 - Comente o console.log acima, e,
@@ -132,8 +133,6 @@ const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!'
 - Abaixo deste comentário, armazene o resto de 10 dividido por 3 em uma constante "reminder";
 - Exiba a reminder no console. O resultado deve ser 1;
 */
-
-
 
 /*
 16 - Comente o console.log acima, e,
@@ -143,7 +142,7 @@ const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!'
 - O valor exibido no console deve ser 7.
 */
 
-let episodes = 6
+let episodes = 6;
 
 /*
 17 - Comente o console.log acima, e,
@@ -153,16 +152,12 @@ let episodes = 6
 - O valor exibido no console deve ser 6.
 */
 
-
-
 /*
 18 - Comente o console.log acima, e,
 
 - Utilize o operador addition assignment para atualizar o valor da let "episodes" para 10;
 - Após a atribuição, exiba a let "episodes" no console.
 */
-
-
 
 /*
 19 - Comente o console.log acima, e,
@@ -171,8 +166,6 @@ let episodes = 6
 - Insira a let "episodes" no lugar de "NUMERO_DE_EPISÓDIOS";
 - Exiba a "allEpisodes" no console.
 */
-
-
 
 /*
 20 - Comente o console.log acima, e,
@@ -197,7 +190,7 @@ let episodes = 6
 - Exiba a "newName" no console;
 */
 
-const name = 'walter white'
+const name = "walter white";
 
 /*
 22 - Comente o console.log acima, e,
